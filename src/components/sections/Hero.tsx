@@ -13,7 +13,7 @@ export function Hero() {
           as="h1"
           className="mb-7 max-w-[820px] text-[46px] font-semibold leading-[1.03] tracking-[-0.02em] md:text-[88px]"
         >
-          Yakir Rabinovich builds systems that hold up in the dark.
+          Hi, I&apos;m Yakir
         </Reveal>
 
         <Reveal as="p" className="mb-10 max-w-[540px] text-[19px] leading-relaxed text-body">
