@@ -3,7 +3,7 @@ import { skillGroups } from "@/data/skills";
 
 export function Skills() {
   return (
-    <section id="skills" className="relative z-[2] mx-auto max-w-[1400px] px-6 pb-24 md:px-16 md:pb-[200px]">
+    <section id="skills" className="relative z-[2] mx-auto max-w-[1400px] px-6 pb-24 md:px-16 md:pb-[200px] md:pt-10">
       <Reveal className="mb-16 font-mono text-sm text-accent">{"// 03 — skills & stack"}</Reveal>
 
       <Reveal className="grid grid-cols-2 gap-10 md:grid-cols-3 md:gap-14">

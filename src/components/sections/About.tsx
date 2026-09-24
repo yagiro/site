@@ -2,7 +2,7 @@ import { Reveal } from "@/components/ui/Reveal";
 
 export function About() {
   return (
-    <section className="relative z-[2] mx-auto max-w-[1400px] px-6 py-24 md:px-16 md:py-[200px]">
+    <section id="about" className="relative z-[2] mx-auto max-w-[1400px] px-6 py-24 md:px-16 md:py-[200px]">
       <div className="grid grid-cols-1 gap-12 md:grid-cols-[1fr_1.6fr] md:gap-20">
         <Reveal className="font-mono text-sm text-accent">{"// 01 — about"}</Reveal>
         <Reveal className="max-w-[760px]">

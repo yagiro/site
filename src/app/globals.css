@@ -54,3 +54,7 @@ body {
   background: oklch(0.4 0.1 195);
   color: white;
 }
+
+section[id] {
+  scroll-margin-top: 40px; /* bugfix for nav links: prevent overlap with fixed header */
+}

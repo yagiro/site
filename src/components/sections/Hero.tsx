@@ -6,7 +6,7 @@ export function Hero() {
     <section className="relative z-[2] flex min-h-screen flex-col justify-center px-6 pt-28 md:px-16">
       <div className="max-w-[900px]">
         <Reveal className="mb-7">
-          <TypedTerminalLine text="senior full-stack engineer · react / node / postgres " />
+          <TypedTerminalLine text="senior full-stack engineer · front-end architect " />
         </Reveal>
 
         <Reveal
@@ -41,10 +41,6 @@ export function Hero() {
           <span className="h-[7px] w-[7px] rounded-full bg-green shadow-[0_0_8px_oklch(0.7_0.16_150)]" />
           status: open to fractional &amp; remote engagements
         </Reveal>
-      </div>
-
-      <div className="absolute bottom-9 left-6 font-mono text-xs tracking-wider text-dim md:left-16">
-        scroll ↓
       </div>
     </section>
   );
