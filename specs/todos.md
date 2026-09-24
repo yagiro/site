@@ -1,0 +1,1 @@
+- make the header look like glass with a cool border-bottom (and maybe a box-shadow)
