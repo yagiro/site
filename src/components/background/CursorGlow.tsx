@@ -23,7 +23,7 @@ export function CursorGlow() {
       className="fixed inset-0 z-5 pointer-events-none mix-blend-screen"
       style={{
         background:
-          "radial-gradient(360px circle at var(--mx, 50%) var(--my, 50%), oklch(0.55 0.13 195 / 0.18), transparent 65%)",
+          "radial-gradient(360px circle at var(--mx, 50%) var(--my, 50%), var(--color-accent-glow), transparent 65%)",
       }}
     />
   );

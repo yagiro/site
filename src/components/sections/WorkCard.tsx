@@ -4,7 +4,7 @@ import type { Project } from "@/data/projects";
 export function WorkCard({ project }: { project: Project }) {
   return (
     <Reveal
-      className="mb-8 grid grid-cols-1 gap-10 border border-border/60 bg-card/50 p-8 transition-all duration-[400ms] hover:-translate-y-1.5 hover:border-accent-hover/60 hover:shadow-[0_24px_60px_-20px_oklch(0.6_0.15_195_/_0.35)] md:grid-cols-[0.7fr_2fr] md:gap-14 md:p-12"
+      className="mb-8 grid grid-cols-1 gap-10 border border-border/60 bg-card/50 p-8 transition-all duration-[400ms] hover:-translate-y-1.5 hover:border-accent-hover/60 hover:shadow-[0_24px_60px_-20px_oklch(0.3_0.15_140_/_0.2)] md:grid-cols-[0.7fr_2fr] md:gap-14 md:p-12"
     >
       <div>
         <div className="mb-3.5 font-mono text-[13px] text-accent">mission {project.year}</div>
