@@ -36,11 +36,6 @@ export function Hero() {
             Get in touch
           </a>
         </Reveal>
-
-        <Reveal className="mt-11 flex items-center gap-2.5 font-mono text-[13px] text-muted">
-          <span className="h-[7px] w-[7px] rounded-full bg-green shadow-[0_0_8px_oklch(0.7_0.16_150)]" />
-          status: open to remote engagements
-        </Reveal>
       </div>
     </section>
   );
