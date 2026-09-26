@@ -1,6 +1,7 @@
 import { Reveal } from "@/components/ui/Reveal";
+import { ContactForm } from "@/components/sections/contact/ContactForm";
+import { EMAIL } from '@/data/contact'
 
-const EMAIL = 'yagiro@gmail.com'
 const LINKEDIN = 'https://www.linkedin.com/in/yagiro'
 
 const LINKS = [
@@ -34,6 +35,7 @@ export function Contact() {
               {link.label} <span className="text-accent">→</span>
             </a>
           ))}
+          <ContactForm />
         </Reveal>
       </div>
     </section>

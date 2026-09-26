@@ -1,1 +1,2 @@
 - make the header look like glass with a cool border-bottom (and maybe a box-shadow)
+- limit emails to 100 per day
