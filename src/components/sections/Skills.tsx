@@ -6,7 +6,7 @@ export function Skills() {
     <section id="skills" className="relative z-[2] mx-auto max-w-[1400px] px-6 pb-24 md:px-16 md:pb-[200px] md:pt-10">
       <Reveal className="mb-16 font-mono text-sm text-accent">{"// 03 — skills & stack"}</Reveal>
 
-      <Reveal className="grid grid-cols-2 gap-10 md:grid-cols-3 md:gap-14">
+      <Reveal className="grid grid-cols-2 gap-10 md:grid-cols-4 md:gap-14">
         {skillGroups.map((group) => (
           <div key={group.title}>
             <div className="mb-5 text-[17px] font-semibold text-ink/90">{group.title}</div>

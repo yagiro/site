@@ -19,8 +19,8 @@ export function Contact() {
             Let&apos;s build something that lasts.
           </h2>
           <p className="max-w-[480px] text-[17px] leading-[1.7] text-muted">
-            Open to fractional and remote engagements. Happiest joining early, owning a system end
-            to end.
+            If you&apos;re looking for someone to own a system end to end, from architecture to
+            the pixels on screen, I&apos;d love to hear about it. Open to remote engagements.
           </p>
         </Reveal>
 

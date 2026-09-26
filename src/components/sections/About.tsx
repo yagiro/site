@@ -7,15 +7,17 @@ export function About() {
         <Reveal className="font-mono text-sm text-accent">{"// 01 — about"}</Reveal>
         <Reveal className="max-w-[760px]">
           <p className="mb-8 text-[26px] leading-relaxed tracking-[-0.01em] text-ink md:text-[30px]">
-            I&apos;ve spent the last decade moving between product and infrastructure — the kind
-            of engineer teams call when a feature needs to ship <em className="italic text-accent">and</em>{" "}
-            the system needs to survive it.
+            I&apos;ve spent the better part of a decade on the frontend — but never only there.
+            I&apos;ve led enterprise React applications used by thousands, built a startup&apos;s
+            entire frontend domain from scratch, and been just as hands-on in the{" "}
+            <em className="italic text-accent">backend</em>, owning the decisions that make an
+            interface actually work.
           </p>
           <p className="text-[17px] leading-[1.8] text-muted">
-            I like problems with a real user on the other end: onboarding flows people abandon,
-            dashboards that time out, APIs that buckle under load. My work sits at the
-            intersection of clean interfaces and the backend decisions that make them possible —
-            most recently at early-stage startups where I owned both.
+            I care about the system as much as the screen: architecture that scales past the
+            first six months, infrastructure a team can build on without asking me first. Lately
+            that includes working spec-first alongside AI agents — treating them as another
+            disciplined part of the process, not a shortcut around one.
           </p>
         </Reveal>
       </div>

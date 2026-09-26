@@ -10,30 +10,31 @@ export type Project = {
 export const projects: Project[] = [
   {
     year: "01",
-    name: "Ledger — Financial Ops Platform",
-    stack: ["React", "Next.js", "Node.js", "Postgres", "AWS"],
+    name: "Check Point — Product Catalog",
+    stack: ["React", "Redux", "Java", "Spring Boot", "SQL"],
     problem:
-      "Finance teams reconciled multi-currency transactions by hand across five disconnected tools.",
-    role: "Led frontend & API architecture; built the reconciliation engine solo alongside one backend engineer.",
+      "The existing product catalog was a large legacy codebase — slow and difficult to maintain.",
+    role: "Tech lead and owner — rebuilt the SPA from the ground up, led two engineers, set branching/CI-CD standards and coding practices.",
     outcome:
-      "Reconciliation time dropped from 3 days to 40 minutes; adopted by 12 finance teams in 6 months.",
+      "Became the system of record for official quotes across Check Point's global sales org, processing thousands of quotes a month, still in production today.",
   },
   {
     year: "02",
-    name: "Northwind — Logistics Dashboard",
-    stack: ["TypeScript", "React", "GraphQL", "Redis"],
+    name: "Staylabs — Frontend Domain, Ground Up",
+    stack: ["React", "Parcel", "AWS Lambda", "PostgreSQL", "DynamoDB", "Stripe"],
     problem:
-      "Dispatch dashboard timed out under peak load, costing dispatchers real-time visibility.",
-    role: "Rebuilt data layer and virtualized rendering; owned the migration end to end.",
-    outcome: "P95 load time cut from 8.2s to 380ms; zero downtime during the migration.",
+      "An early-stage biotech startup needed a frontend architect to take ownership of the domain from the ground up.",
+    role: "Owned frontend architecture solo alongside the CTO — built micro-frontend infra, core client libraries, and an A/B testing framework from zero.",
+    outcome:
+      "Within about a year, shipped three production apps on that foundation — customer onboarding with Stripe billing, account management, and annual microbiome reporting.",
   },
   {
     year: "03",
-    name: "Fieldnote — Mobile Field Reports",
-    stack: ["React Native", "Node.js", "MongoDB", "Docker"],
+    name: "One Zero — IVR Authentication",
+    stack: ["Kotlin", "Spring Boot", "Twilio", "GraphQL"],
     problem:
-      "Field technicians needed offline-first reporting with reliable sync in low-connectivity areas.",
-    role: "Sole engineer; designed offline sync protocol and shipped v1 to production in 10 weeks.",
-    outcome: "Adopted by 400+ field technicians; sync failure rate under 0.3%.",
+      "Bankers manually verified caller identity on every inbound support call, burning time on a repetitive task.",
+    role: "Designed and built an automated phone-based identity verification flow end to end.",
+    outcome: "Cut roughly 45 seconds off every verification call, across hundreds of calls a day.",
   },
 ];

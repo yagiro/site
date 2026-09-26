@@ -17,8 +17,8 @@ export function Hero() {
         </Reveal>
 
         <Reveal as="p" className="mb-10 max-w-[540px] text-[19px] leading-relaxed text-body">
-          Ten years shipping React, Node, and infrastructure for startups that needed things to
-          just work — fast, resilient, unglamorous, correct.
+          I&apos;ve spent a decade making interfaces trustworthy and the systems behind them
+          quietly reliable.
         </Reveal>
 
         <Reveal className="flex flex-wrap items-center gap-4">
@@ -39,7 +39,7 @@ export function Hero() {
 
         <Reveal className="mt-11 flex items-center gap-2.5 font-mono text-[13px] text-faint">
           <span className="h-[7px] w-[7px] rounded-full bg-green shadow-[0_0_8px_oklch(0.7_0.16_150)]" />
-          status: open to fractional &amp; remote engagements
+          status: open to remote engagements
         </Reveal>
       </div>
     </section>
