@@ -16,7 +16,7 @@ export function Hero() {
           Hi, I&apos;m Yakir
         </Reveal>
 
-        <Reveal as="p" className="mb-10 max-w-[540px] text-[19px] leading-relaxed text-body">
+        <Reveal as="p" className="mb-10 max-w-[540px] text-[19px] leading-relaxed text-muted">
           I&apos;ve spent a decade making interfaces trustworthy and the systems behind them
           quietly reliable.
         </Reveal>
@@ -37,7 +37,7 @@ export function Hero() {
           </a>
         </Reveal>
 
-        <Reveal className="mt-11 flex items-center gap-2.5 font-mono text-[13px] text-faint">
+        <Reveal className="mt-11 flex items-center gap-2.5 font-mono text-[13px] text-muted">
           <span className="h-[7px] w-[7px] rounded-full bg-green shadow-[0_0_8px_oklch(0.7_0.16_150)]" />
           status: open to remote engagements
         </Reveal>

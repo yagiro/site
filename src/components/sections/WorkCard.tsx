@@ -25,15 +25,15 @@ export function WorkCard({ project }: { project: Project }) {
 
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-3 sm:gap-10">
         <div>
-          <div className="mb-2.5 font-mono text-xs text-faint">problem</div>
-          <p className="text-[15px] leading-[1.7] text-body">{project.problem}</p>
+          <div className="mb-2.5 font-mono text-xs text-muted2">problem</div>
+          <p className="text-[15px] leading-[1.7] text-muted">{project.problem}</p>
         </div>
         <div>
-          <div className="mb-2.5 font-mono text-xs text-faint">role</div>
-          <p className="text-[15px] leading-[1.7] text-body">{project.role}</p>
+          <div className="mb-2.5 font-mono text-xs text-muted2">role</div>
+          <p className="text-[15px] leading-[1.7] text-muted">{project.role}</p>
         </div>
         <div>
-          <div className="mb-2.5 font-mono text-xs text-faint">outcome</div>
+          <div className="mb-2.5 font-mono text-xs text-muted2">outcome</div>
           <p className="text-[15px] font-medium leading-[1.7] text-accent-bright">
             {project.outcome}
           </p>

@@ -23,7 +23,7 @@ export function TypedTerminalLine({ text }: { text: string }) {
   }, [text]);
 
   return (
-    <span className="font-mono text-[15px] tracking-wide text-faint flex gap-3 items-center">
+    <span className="font-mono text-[15px] tracking-wide text-muted flex gap-3 items-center">
       <span className="text-accent">&gt;</span> {text.slice(0, length)}
       <span className="animate-[blink_1s_step-end_infinite] text-accent mb-1">▌</span>
     </span>
