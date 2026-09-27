@@ -17,7 +17,7 @@ export function useReveal<T extends HTMLElement>() {
           if (entry.isIntersecting) setIsVisible(true);
         });
       },
-      { threshold: 0.15, rootMargin: "0px 0px -60px 0px" }
+      { threshold: 0.15, rootMargin: "0px 0px -100px 0px" }
     );
     observer.observe(el);
     return () => observer.disconnect();

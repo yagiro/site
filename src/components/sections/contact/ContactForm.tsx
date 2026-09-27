@@ -17,7 +17,7 @@ function SubmitButton() {
       disabled={pending}
       className="w-full py-4 px-8 bg-accent text-bg font-mono font-semibold text-[15px] border-none cursor-pointer transition-all duration-300 hover:bg-accent-hover hover:shadow-[0_0_32px_var(--color-accent-glow)] disabled:cursor-not-allowed disabled:opacity-70"
     >
-      {pending ? "Sending…" : "Send message"}
+      {pending ? "Sending…" : "Send me a message"}
     </button>
   );
 }
@@ -27,7 +27,7 @@ export function ContactForm() {
   const sent = state.status === "sent";
 
   return (
-    <div className="relative flex min-h-[380px] flex-col gap-4 overflow-hidden border border-border-soft bg-card p-7">
+    <div className="relative flex min-h-[380px] flex-col gap-4 overflow-hidden border-border-soft bg-card">
       <div className="relative flex-1">
         <Confirmation sent={sent} />
 

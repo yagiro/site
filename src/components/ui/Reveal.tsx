@@ -22,7 +22,7 @@ export function Reveal<T extends ElementType = "div">({
   return (
     <Tag
       ref={ref}
-      className={`transition-all duration-1000 ease-reveal ${
+      className={`transition-all duration-4000 ease-reveal ${
         isVisible ? "opacity-100 translate-y-0 scale-100" : "opacity-0 translate-y-9 scale-[0.98]"
       } ${className}`}
       {...rest}

@@ -5,7 +5,7 @@ export function FromEmailField() {
     <input
       type="email"
       name="fromEmail"
-      placeholder="Your email"
+      placeholder="Your email address"
       required
       className={fieldClass}
     />

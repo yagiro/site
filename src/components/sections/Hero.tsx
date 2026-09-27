@@ -13,12 +13,11 @@ export function Hero() {
           as="h1"
           className="mb-7 max-w-[820px] text-[46px] font-semibold leading-[1.03] tracking-[-0.02em] md:text-[88px]"
         >
-          Hi, I&apos;m Yakir
+          Yakir Rabinovich
         </Reveal>
 
         <Reveal as="p" className="mb-10 max-w-[540px] text-[19px] leading-relaxed text-muted">
-          I&apos;ve spent a decade making interfaces trustworthy and the systems behind them
-          quietly reliable.
+          Welcome to my small corner of the web.
         </Reveal>
 
         <Reveal className="flex flex-wrap items-center gap-4">
@@ -31,7 +30,7 @@ export function Hero() {
           </a>
           <a
             href="#contact"
-            className="inline-flex items-center border border-border px-8 py-4 text-[15px] text-ink/90 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_0_32px_oklch(0.6_0.15_195_/_0.5)]"
+            className="inline-flex items-center backdrop-blur-xs border border-border px-8 py-4 text-[15px] text-ink/90 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_0_32px_oklch(0.6_0.15_195_/_0.5)]"
           >
             Get in touch
           </a>
