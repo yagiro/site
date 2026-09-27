@@ -10,7 +10,7 @@ export function Nav() {
 
   return (
     <>
-      <nav className="fixed inset-x-0 top-0 z-40 flex items-center justify-between px-6 py-7 backdrop-blur-[6px] md:px-16">
+      <nav className="fixed inset-x-0 top-0 z-40 flex items-center justify-between px-6 py-7 backdrop-blur-[10px] md:px-16 border-b border-white/5">
         <div className="font-mono text-sm tracking-wide text-accent">
           <a href="#">yakir <span className="text-muted">/</span> dev</a>
         </div>
