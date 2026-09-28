@@ -17,7 +17,7 @@ export const skillGroups: SkillGroup[] = [
     items: ["PostgreSQL", "Kafka", "AWS", "Docker", "Kubernetes"],
   },
   {
-    title: "AI-Assisted Engineering",
-    items: ["Claude Code", "MCP", "Spec-Driven Development"],
+    title: "AI",
+    items: ["Claude Code", "Spec-Driven Development", "Cursor", "MCP"],
   },
 ];

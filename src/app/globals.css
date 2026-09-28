@@ -55,5 +55,5 @@ body {
 }
 
 section[id] {
-  scroll-margin-top: 40px; /* bugfix for nav links: prevent overlap with fixed header */
+  scroll-margin-top: 45px; /* bugfix for nav links: prevent overlap with fixed header */
 }

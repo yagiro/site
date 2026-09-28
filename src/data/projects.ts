@@ -14,9 +14,9 @@ export const projects: Project[] = [
     stack: ["React", "Redux",],
     problem:
       "The existing product catalog was a large legacy codebase — slow and difficult to maintain.",
-    role: "Led a small dev team to build Product Catalog 2.0 from scratch. Involved in all cross-team discussions.",
+    role: "Led a small dev team to build Product Catalog 2.0 from scratch, owning all FE-related decisions in cross-team discussions.",
     outcome:
-      "Became the system of record for official quotes across Check Point's global sales org, generating thousands of quotes a month, still in production today.",
+      "Huge improvment in UX, performance & maintainability. The project successfuly became the new system of record for official quotes across Check Point's global sales org, generating thousands of quotes a month, still in production today.",
   },
   {
     label: "2021 - Staylabs",
@@ -26,7 +26,7 @@ export const projects: Project[] = [
       "An early-stage biotech startup needed a frontend architect to take ownership of the domain from the ground up.",
     role: "Setup the entire frontend domain — micro-frontends, core libraries, A/B testing and several customer-facing web apps.",
     outcome:
-      "Within about a year, shipped three production apps on that foundation — customer onboarding with Stripe billing, account management, and annual microbiome reporting.",
+      "Within about a year, shipped several web apps on that foundation — customer onboarding, account management and microbiome reporting.",
   },
   {
     label: "2024 - One Zero",

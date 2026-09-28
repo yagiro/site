@@ -3,6 +3,7 @@ import { Reveal } from "@/components/ui/Reveal";
 import { LinkedinIcon } from "@/components/ui/icons/LinkedinIcon";
 import { ContactForm } from "@/components/sections/contact/ContactForm";
 import { EMAIL } from '@/data/contact'
+import { sectionClassName } from "@/components/sections/sectionUtils";
 
 const LINKEDIN = 'https://www.linkedin.com/in/yagiro'
 
@@ -13,7 +14,7 @@ const LINKS = [
 
 export function Contact() {
   return (
-    <section id="contact" className="relative z-[2] mx-auto max-w-[1400px] px-6 pb-20 pt-10 md:px-16 md:pb-40">
+    <section id="contact" className={`${sectionClassName} pb-20 md:pb-40`}>
       <div className="grid grid-cols-1 items-end gap-6 md:grid-cols-2 md:gap-20">
         <Reveal>
           <div className="mb-7 font-mono text-sm text-accent">{"// contact"}</div>

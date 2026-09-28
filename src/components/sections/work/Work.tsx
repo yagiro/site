@@ -1,10 +1,11 @@
 import { Reveal } from "@/components/ui/Reveal";
-import { WorkCard } from "@/components/sections/WorkCard";
+import { WorkCard } from "@/components/sections/work/WorkCard";
 import { projects } from "@/data/projects";
+import { sectionClassName } from "@/components/sections/sectionUtils";
 
 export function Work() {
   return (
-    <section id="work" className="relative z-[2] mx-auto max-w-[1400px] px-6 pb-24 pt-10 md:px-16 md:pb-[200px] md:pt-10">
+    <section id="work" className={`${sectionClassName} pb-24 md:pb-50`}>
       <Reveal className="mb-16 font-mono text-sm text-accent">{"// a few career highlights"}</Reveal>
 
       {projects.map((project) => (

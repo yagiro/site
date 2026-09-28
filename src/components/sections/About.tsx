@@ -1,14 +1,15 @@
 import { Reveal } from "@/components/ui/Reveal";
+import { sectionClassName } from "@/components/sections/sectionUtils";
 
 export function About() {
   return (
-    <section id="about" className="relative z-[2] mx-auto max-w-[1400px] px-6 py-24 md:px-16 md:py-[200px]">
+    <section id="about" className={`${sectionClassName} pb-24 md:mt-25 md:pb-50`}>
       <div className="grid grid-cols-1 gap-12 md:grid-cols-[1fr_1.6fr] md:gap-20">
         <Reveal className="font-mono text-sm text-accent">{"// about"}</Reveal>
         <div>
           <Reveal className="max-w-[760px]">
             <p className="mb-8 text-[26px] leading-relaxed tracking-[-0.01em] text-ink md:text-[30px]">
-              I have loved coding ever since I can remember. Been developing full-stack systems for nearly a decade now, and I am grateful for still having the same enthusiasm for learning and building new things.
+              I have loved coding ever since I can remember. Been developing full-stack systems for nearly a decade now and I am grateful for still having the same enthusiasm for learning and building new things.
             </p>
           </Reveal>
           <Reveal className="max-w-[760px]">
