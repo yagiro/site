@@ -16,7 +16,7 @@ export function Contact() {
     <section id="contact" className="relative z-[2] mx-auto max-w-[1400px] px-6 pb-20 pt-10 md:px-16 md:pb-40">
       <div className="grid grid-cols-1 items-end gap-6 md:grid-cols-2 md:gap-20">
         <Reveal>
-          <div className="mb-7 font-mono text-sm text-accent">{"// 04 — contact"}</div>
+          <div className="mb-7 font-mono text-sm text-accent">{"// contact"}</div>
           <h2 className="mb-6 text-[40px] font-semibold leading-[1.08] tracking-[-0.02em] text-ink md:text-[58px]">
             Let&apos;s build stuff.
           </h2>
