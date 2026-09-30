@@ -1,14 +1,16 @@
 import { Mail } from "lucide-react";
 import { Reveal } from "@/components/ui/Reveal";
+import { WhatsappIcon } from "@/components/ui/icons/WhatsappIcon";
 import { LinkedinIcon } from "@/components/ui/icons/LinkedinIcon";
 import { ContactForm } from "@/components/sections/contact/ContactForm";
-import { EMAIL } from '@/data/contact'
+import { EMAIL, WHATSAPP_NUMBER } from '@/data/contact'
 import { sectionClassName } from "@/components/sections/sectionUtils";
 
 const LINKEDIN = 'https://www.linkedin.com/in/yagiro'
 
 const LINKS = [
   { href: `mailto:${EMAIL}`, label: EMAIL, icon: Mail },
+  { href: `https://wa.me/${WHATSAPP_NUMBER}`, label: "WhatsApp", icon: WhatsappIcon },
   { href: LINKEDIN, label: "LinkedIn", icon: LinkedinIcon },
 ];
 
