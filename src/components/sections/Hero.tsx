@@ -6,7 +6,7 @@ export function Hero() {
     <section className="relative z-[2] flex min-h-screen flex-col justify-center px-6 pt-28 md:px-16">
       <div className="max-w-[900px]">
         <Reveal className="mb-7">
-          <TypedTerminalLine text="senior full-stack engineer · front-end architect " />
+          <TypedTerminalLine text="senior full-stack engineer & front-end architect " />
         </Reveal>
 
         <Reveal

@@ -1,5 +1,8 @@
 import { Reveal } from "@/components/ui/Reveal";
 import { sectionClassName } from "@/components/sections/sectionUtils";
+import { PropsWithChildren } from 'react'
+
+const Highlight = (props: PropsWithChildren) => (<em className="text-accent">{props.children}</em>)
 
 export function About() {
   return (
@@ -14,7 +17,7 @@ export function About() {
           </Reveal>
           <Reveal className="max-w-[760px]">
             <p className="text-[17px] leading-[1.8] text-muted">
-              I am no stranger to backend development, but my main passion is front-end. I have set up various front-end infrastructures & championed complex React applications. Worked in enterprises and small startups. I truly enjoy collaborating with people (and agents) to build software products that bring real value.
+              Today I have an <Highlight>AI-first</Highlight> workflow (spec-driven development, not vibe-coding). I am no stranger to backend development, but my main passion is front-end. I have set up various front-end infrastructures, championed <Highlight>enterprise React applications</Highlight> and developed various <Highlight>backend & data systems</Highlight>. Worked in large companies and small startups. I truly enjoy <Highlight>collaborating with people</Highlight> (and agents) to build software products that bring real value.
             </p>
           </Reveal>
         </div>
