@@ -1,6 +1,5 @@
 import { Starfield } from "@/components/background/Starfield";
 import { NebulaLayer } from "@/components/background/NebulaLayer";
-import { CursorGlow } from "@/components/background/CursorGlow";
 import { Nav } from "@/components/layout/Nav";
 import { ProgressRail } from "@/components/layout/ProgressRail";
 import { Footer } from "@/components/layout/Footer";
@@ -15,7 +14,6 @@ export default function Home() {
     <div className="relative">
       <Starfield />
       <NebulaLayer />
-      <CursorGlow />
       <ProgressRail />
       <Nav />
 
