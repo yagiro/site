@@ -35,6 +35,6 @@ export const projects: Project[] = [
     problem:
       "Bankers manually verified caller identity on every inbound support call, burning time on a repetitive task.",
     role: "Designed and built an automated phone-based identity verification flow end to end.",
-    outcome: "Improved security and cut ~45sec off each incoming call, across hundreds of calls a day.",
+    outcome: "Improved security and cut ~30sec off each incoming call, across hundreds of calls a day.",
   },
 ];
